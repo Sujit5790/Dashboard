@@ -11,6 +11,7 @@ router.put('/edit/:id', customerController.editPost);
 router.delete('/edit/:id', customerController.deleteCustomer);
 
 router.post('/search', customerController.searchCustomers);
+router.post('/search', caseController.searchCustomers)
 
 
 
